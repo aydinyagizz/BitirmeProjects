@@ -1,0 +1,10 @@
+CRITICAL - 2022-01-14 01:37:51 --> unlink(D:\Program Files\XAMPP\htdocs\bitirmeProjesi\writable\debugbar/debugbar_1640591379.json): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(D:\\Progr...', 'D:\\Program File...', 74)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Debug\Toolbar\Collectors\History.php(74): unlink('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Debug\Toolbar.php(483): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles(1642113469, 20)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Debug\Toolbar.php(460): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(300): CodeIgniter\Events\Events::trigger('pre_system')
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

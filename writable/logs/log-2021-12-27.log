@@ -1,0 +1,946 @@
+CRITICAL - 2021-12-27 02:37:12 --> Undefined array key "record"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 20)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(101): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->products('tr')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 02:37:39 --> Undefined variable $record
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsView.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 20)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(101): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->products('tr')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 02:43:02 --> Undefined property: stdClass::$urun_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsView.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 40)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(104): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->products('tr')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:10:33 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(104): view('Frontend/Produc...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->products('tr')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 03:11:40 --> Undefined property: stdClass::$egitim_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:12:09 --> Undefined property: stdClass::$egitim_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:12:10 --> Undefined property: stdClass::$egitim_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:12:11 --> Undefined property: stdClass::$egitim_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:12:11 --> Undefined property: stdClass::$egitim_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 28)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:12:26 --> Undefined property: stdClass::$egitim_title
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ProductsDetailView.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 35)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Produc...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(121): view('Frontend/Produc...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->productsDetail('tr', '4')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:35:44 --> Undefined property: App\Controllers\Backend\Iletisim::$hakkimizdaModel
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 57)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 03:36:18 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(60): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:36:41 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(60): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:36:47 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(60): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:37:37 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(57): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:37:37 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(57): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:37:38 --> Invalid file: Backend/İletisimDuzenleView.php
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Backend/\xC4\xB0letis...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/\xC4\xB0letis...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(57): view('Backend/\xC4\xB0letis...', Array)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:42:05 --> IletisimDuzenle is not a validation rules group.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('IletisimDuzenle')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('IletisimDuzenle')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(36): CodeIgniter\Validation\Validation->run(Array, 'IletisimDuzenle')
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 03:43:53 --> Call to undefined method App\Models\HakkimizdaModel::IletisimDuzenle
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(41): CodeIgniter\Model->__call('IletisimDuzenle', Array)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 03:44:37 --> Call to undefined method App\Models\HakkimizdaModel::IletisimDuzenle
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(41): CodeIgniter\Model->__call('IletisimDuzenle', Array)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 03:50:18 --> Attempt to read property "site_adres" on array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\ContactView.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\Program File...', 61)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/Contac...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(195): view('Frontend/Contac...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->contact('tr')
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:51:36 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\IletisimDuzenleView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Iletisi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(59): view('Backend/Iletisi...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 03:52:09 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\IletisimDuzenleView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Iletisi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Iletisim.php(59): view('Backend/Iletisi...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Iletisim->iletisimDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Iletisim))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:19:17 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:19:50 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:20:36 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:21:57 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:22:49 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 69)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:22:51 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 69)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:23:03 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 69)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:23:39 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:24:12 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 73)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:25:38 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:27:13 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:27:18 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:28:58 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:29:01 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:29:23 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:29:37 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:29:40 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:32:07 --> Undefined array key ""
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:35:56 --> Undefined array key "fatihOzkaynak_duzenle"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 25)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:36:27 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 71)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:36:34 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 71)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:36:59 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:37:00 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 72)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:44:36 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:44:42 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:44:57 --> Call to undefined function move()
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:45:14 --> Call to undefined function move()
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:45:15 --> Call to undefined function move()
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:45:29 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:45:30 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:45:30 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:45:51 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:45:52 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:46:08 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:46:29 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:47:26 --> fatihOzkaynakDuzenle is not a validation rules group.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Validation\Validation.php(520): CodeIgniter\Validation\Exceptions\ValidationException::forGroupNotFound('fatihOzkaynakDu...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Validation\Validation.php(116): CodeIgniter\Validation\Validation->loadRuleGroup('fatihOzkaynakDu...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(44): CodeIgniter\Validation\Validation->run(Array, 'fatihOzkaynakDu...')
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 04:49:07 --> Undefined array key "ozkaynak_foto"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 52)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:50:41 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:51:36 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:51:59 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:52:27 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:53:17 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:53:32 --> Undefined property: stdClass::$img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:53:33 --> Undefined property: stdClass::$img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:54:18 --> Undefined variable $img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:54:24 --> Undefined variable $img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:54:25 --> Undefined variable $img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:54:59 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:55:14 --> Undefined property: stdClass::$img_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:55:15 --> Undefined property: stdClass::$img_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:55:42 --> Undefined property: stdClass::$img_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:55:52 --> Undefined property: stdClass::$img_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:55:53 --> Undefined property: stdClass::$img_name
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:56:38 --> Undefined property: stdClass::$imgName
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:56:49 --> Undefined property: stdClass::$imgName
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 53)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:57:01 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:57:40 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:57:47 --> Cannot use object of type stdClass as array
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-27 04:58:15 --> Undefined property: stdClass::$imgName
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:58:21 --> Undefined property: stdClass::$img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:58:23 --> Undefined property: stdClass::$img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 04:58:43 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 73)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 04:59:02 --> Undefined property: stdClass::$img
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\fatihOzkaynakView.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 54)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/fatihOz...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(74): view('Backend/fatihOz...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 05:26:08 --> Unclosed '{' on line 9
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Program File...')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-27 05:27:55 --> The original file is not a valid file.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(59): CodeIgniter\HTTP\Files\UploadedFile->move('assets/Backend/...', '_1640572075_486...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:29:07 --> The original file is not a valid file.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(59): CodeIgniter\HTTP\Files\UploadedFile->move('assets/Backend/...', '_1640572147_544...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:32:50 --> The original file is not a valid file.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(46): CodeIgniter\HTTP\Files\UploadedFile->move('assets/Backend/...', '_1640572370_633...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:33:43 --> The original file is not a valid file.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(46): CodeIgniter\HTTP\Files\UploadedFile->move('assets/Backend/...', '_1640572423_057...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:34:12 --> The original file is not a valid file.
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\fatihOzkaynak.php(46): CodeIgniter\HTTP\Files\UploadedFile->move('assets/Backend/...', '_1640572452_d7a...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\fatihOzkaynak->fatihOzkaynakDuzenle()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\fatihOzkaynak))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:54:10 --> Undefined array key "admin_sifre"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 23)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 05:54:30 --> password_hash() expects at least 2 arguments, 1 given
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Models\LoginModel.php(37): password_hash('123456')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(33): App\Models\LoginModel->girisYap('admin', '123456')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 05:55:01 --> password_hash() expects at least 2 arguments, 1 given
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Models\LoginModel.php(37): password_hash('123456')
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(33): App\Models\LoginModel->girisYap('admin', '123456')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-27 06:01:38 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\LoginView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 15)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(55): view('Backend/LoginVi...')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 06:01:43 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\LoginView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 15)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(55): view('Backend/LoginVi...')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 06:01:58 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\LoginView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 15)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(55): view('Backend/LoginVi...')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 06:02:43 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 06:02:53 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(56): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 56)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-27 06:03:01 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\LoginView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 15)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(55): view('Backend/LoginVi...')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-27 06:03:09 --> Undefined variable $data
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\LoginView.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\Program File...', 15)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/LoginVi...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Login.php(55): view('Backend/LoginVi...')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Login->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Login))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

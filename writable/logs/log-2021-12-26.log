@@ -1,0 +1,78 @@
+CRITICAL - 2021-12-26 00:45:38 --> Undefined array key "locale/"
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Frontend\Layouts\Main.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'D:\\Program File...', 55)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/HomeVi...', Array, true)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(44): view('Frontend/HomeVi...', Array)
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->index('tr')
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2021-12-26 01:20:32 --> syntax error, unexpected token ";", expecting "("
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(230): CodeIgniter\View\View->render('Frontend/Layout...', Array, true)
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Frontend/HomeVi...', Array, true)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Frontend\Home.php(44): view('Frontend/HomeVi...', Array)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Frontend\Home->index('en')
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Frontend\Home))
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-26 05:07:04 --> Class "App\Models\UrunModel" not found
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(801): App\Controllers\Backend\Urunler->__construct()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-26 05:24:50 --> Call to a member function getName() on null
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Egitimler->EgitimEkle()
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Egitimler))
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-26 05:29:24 --> Undefined property: stdClass::$yazi_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\UrunlerView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 69)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Urunler...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Urunler.php(28): view('Backend/Urunler...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Urunler->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Urunler))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 05:30:00 --> Undefined property: stdClass::$yazi_foto
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\UrunlerView.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 69)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Urunler...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Urunler.php(28): view('Backend/Urunler...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Urunler->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Urunler))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 05:30:12 --> Undefined property: stdClass::$yazi_title
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\UrunlerView.php(70): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 70)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Urunler...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Urunler.php(28): view('Backend/Urunler...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Urunler->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Urunler))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-26 05:30:45 --> Undefined property: stdClass::$create_at
+#0 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Views\Backend\UrunlerView.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\Program File...', 73)
+#1 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(214): include('D:\\Program File...')
+#2 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\Common.php(1097): CodeIgniter\View\View->render('Backend/Urunler...', Array, true)
+#4 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\app\Controllers\Backend\Urunler.php(28): view('Backend/Urunler...', Array)
+#5 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(824): App\Controllers\Backend\Urunler->index()
+#6 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Backend\Urunler))
+#7 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program Files\XAMPP\htdocs\bitirmeProjesi\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
