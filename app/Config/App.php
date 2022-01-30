@@ -23,7 +23,8 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/bitirmeProjesi/';
+    /*public $baseURL = 'http://localhost/bitirmeProjesi/';*/
+    public $baseURL = 'https://aydinyagizbitirmeprojesi.netlify.app';
 
     /**
      * --------------------------------------------------------------------------
